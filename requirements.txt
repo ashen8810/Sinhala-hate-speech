@@ -1,3 +1,4 @@
 streamlit==0.84.0
 matplotlib==3.3.2
 tensorflow-cpu
+numpy
