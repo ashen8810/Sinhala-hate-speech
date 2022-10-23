@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 import tensorflow as tf
 from tensorflow import keras
-import re
+import re,os
 import string
 model = tf.keras.models.load_model("tf_lstmmodel4.h5")
 import numpy as np
