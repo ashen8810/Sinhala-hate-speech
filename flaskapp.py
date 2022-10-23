@@ -39,9 +39,9 @@ def runner(sen):
         filtered_words = [word for word in text.split() if word not in stop]
         return " ".join(filtered_words)
 
-    from keras import preprocessing
-    from keras.preprocessing.text import Tokenizer
-    from keras.preprocessing.sequence import pad_sequences
+    from tensorflow.keras import preprocessing
+    from tensorflow.keras.preprocessing.text import Tokenizer
+    from tensorflow.keras.preprocessing.sequence import pad_sequences
     sen = remove_stopwords(sen)
     # sen = remove_punct(sen)
     sen = removeNumbers(sen)
