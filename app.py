@@ -6,7 +6,7 @@ import tensorflow as tf
 from tensorflow import keras
 import re
 import string
-model = tf.keras.models.load_model("tf_lstmmodel2.h5")
+model = tf.keras.models.load_model("tf_lstmmodel4.h5")
 import numpy as np
 #
 # def remove_punct(text):
