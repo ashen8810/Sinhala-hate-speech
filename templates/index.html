@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
     <!--Stylesheet-->
     <style media="screen">
+
       *,
 *:before,
 *:after{
@@ -19,6 +20,7 @@
 body{
     background-color: #080710;
 }
+
 .background{
     width: 430px;
     height: 520px;
@@ -51,8 +53,8 @@ body{
     bottom: -80px;
 }
 form{
-    height: 520px;
-    width: 400px;
+    height: 560px;
+    width: 450px;
     background-color: rgba(255,255,255,0.13);
     position: absolute;
     transform: translate(-50%,-50%);
@@ -61,7 +63,7 @@ form{
     border-radius: 10px;
     backdrop-filter: blur(10px);
     border: 2px solid rgba(255,255,255,0.1);
-    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    box-shadow: 0 0 50px rgba(8,7,16,0.6);
     padding: 50px 35px;
 }
 form *{
@@ -72,6 +74,13 @@ form *{
     border: none;
 }
 form h3{
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+}
+form h2{
+    color: #000000;
     font-size: 32px;
     font-weight: 500;
     line-height: 42px;
@@ -132,27 +141,95 @@ button{
   margin-right: 4px;
 }
 
+/* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+/* Global */
+html {
+      min-height: 100%;
+      overflow: hidden;
+}
+
+body {
+      height: calc(100vh - 8em);
+      padding: 4em;
+      color: rgba(255, 255, 255, 0.75);
+      font-family: 'Anonymous Pro', monospace;
+      background-color: rgb(25, 25, 25);
+}
+
+.line {
+      position: relative;
+      width: 16em;
+      margin: 0 auto;
+      border-right: 2px solid rgba(255, 255, 255, 0.75);
+      font-size: 180%;
+      text-align: center;
+      white-space: nowrap;
+      overflow: hidden;transform: translateY(-50%);
+}
+
+/*Animation*/
+
+.anim-typewriter {
+      animation: typewriter 4s steps(40) 1s 1 normal both,
+      blinkTextCursor 500ms steps(40) infinite normal;
+}
+
+@keyframes typewriter {
+      from {
+            width: 0;
+      }
+      to {
+            width: 13em;
+      }
+}
+
+@keyframes blinkTextCursor {
+      from {
+            border-right-color: rgba(255, 255, 255, 0.75);
+      }
+      to {
+            border-right-color: transparent;
+      }
+}
+
+
+
+
+
+
+
+
     </style>
+<!--            <h2 class="line anim-typewriter">Hate Speech Recognition</h2>-->
+
 </head>
 <body>
+
     <div class="background">
         <div class="shape"></div>
         <div class="shape"></div>
     </div>
     <form action="/" method="post">
-        <h3>Hate Speech Recognition</h3>
+
+        <h3 class="line anim-typewriter" >Hate Speech Recognition</h3>
 
         <label for="username">Text In Sinhala</label>
         <input type="text" placeholder="text" id="username" name="uname">
 <!--        <button onclick="run()">Run</button>-->
-        <input type="submit" value="Click Me" >
-        <h2>Prediction: {{pred}}</h2>
-        <h2>Probability: {{valid}}</h2>
+        <input type="submit" value="RUN" >
+        <br>
+        <h3 style="color: grey">Prediction: {{pred}}</h3>
+        <h3 style="color: grey">Probability: {{valid}}</h3>
     </form>
 
 
 
+
         <div class="social">
+
+
 
         </div>
     </form>
