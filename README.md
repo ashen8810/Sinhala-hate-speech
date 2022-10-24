@@ -11,17 +11,19 @@
 
   <h3 align="center">Sinhala Hate Speech Recoginizer</h3>
 
-  <p align="center">
-    
- 
-    <a href="https://github.com/shen8810/Sinhala-hate-speech"><strong>Explore the docs »</strong></a>
+   <p align="center">
+    An awesome README template to jumpstart your projects!
     <br />
-    <a href="https://sinhala-hate-speech.up.railway.app">View Demo</a>
-    <a href="https://github.com/shen8810/Sinhala-hate-speech/issues">Report Bug</a>
-    <a href="https://github.com/shen8810/Sinhala-hate-speech/issues">Request Feature</a>
+    <a href="https://github.com/ashen8810/Sinhala-hate-speech"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://sinhala-hate-speech.up.railway.app/">View Demo</a>
+    ·
+    <a href="https://github.com/ashen8810/Sinhala-hate-speech/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/ashen8810/Sinhala-hate-speech/issues">Request Feature</a>
   </p>
 </div>
-
 
 
 <!-- TABLE OF CONTENTS -->
