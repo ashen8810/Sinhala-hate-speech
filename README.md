@@ -1,5 +1,5 @@
 # Sinhala-hate-speech
-
+<img src="https://komarev.com/ghpvc/?username=ashen8810&label=Profile%20views&color=0e75b6&style=flat" alt="ashen8810" /> </p>
 <a name="readme-top"></a>
 
 
