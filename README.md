@@ -1,5 +1,8 @@
 # Sinhala-hate-speech
 <img src="https://komarev.com/ghpvc/?username=ashen8810&label=Profile%20views&color=0e75b6&style=flat" alt="ashen8810" /> </p>
+![Python](https://img.shields.io/badge/-Python-000?&logo=Python)
+![Java](https://img.shields.io/badge/-Java-000?&logo=Java&logoColor=007396)
+![TensorFlow](https://img.shields.io/badge/-TensorFlow-000?&logo=TensorFlow)
 <a name="readme-top"></a>
 
 
